@@ -2,28 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 body{
     display: flex;
+    background-color: black;
 }
 .stori{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    border: 4px solid black ;
+    
 }
 #hd{
     display: flex;
     flex-direction: column;
 }
-#perf{
+.perf{
     width: 30px;
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
 .public{
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 #buttons{
@@ -31,7 +35,7 @@ body{
     justify-content: space-between;
 }
 button{
-    background-color: ;
+    background-color: black ;
     border-style: none;
 }
 #perfil{
@@ -44,5 +48,75 @@ button{
 }
 .comentario{
     display: flex;
+    justify-content: space-between;
+}
+.pub1{
+    display: flex;
+    justify-content: space-between;
+}
+.pb3{
+    display: flex;
+    align-items: center;
+}
+.pub01{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header{
+    width: 15vw;
+    border-right: 1px ;
+    border-color: white;
+    border-style: solid;
+    margin-right: 25px;
+    gap: 30px;
+    display: flex;
+    
+}
+main{
+    width: 50vw;
+}
+aside{
+    width: 20vw;
+    margin-left: 30px;
+}
+a{text-decoration: none;}
+.perff{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;}
+    .follow{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+#storys{
+    display: flex;
+    gap: 15px;
+}
+.borda{
+    width: 87px;
+    height: 87px;
+    background-image: linear-gradient( 45deg, yellow, purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#hd{
+    gap: 20px;
+}
+#storys{
+    display: flex;
+    
+}
+.flw{display: flex;}
+h1{margin-bottom: 40px;}
+.fllw{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
