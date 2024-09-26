@@ -16,8 +16,8 @@ body{
     flex-direction: column;
 }
 #perf{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -33,4 +33,16 @@ body{
 button{
     background-color: ;
     border-style: none;
+}
+#perfil{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    gap: 13px;
+}
+.comentario{
+    display: flex;
+    justify-content: space-between;
 }
